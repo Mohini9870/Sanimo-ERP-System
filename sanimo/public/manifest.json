@@ -1,0 +1,9 @@
+{
+	"short_name": "SP",
+	"name": "Sanimo Polymers Pvt Ltd",
+	"icons": [],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}

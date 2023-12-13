@@ -1,0 +1,159 @@
+:root {
+	--custom-green: #198754;
+	--custom-white: #ffffff;
+	--custom-black: #000000;
+	--custom-red: #ca2c33;
+	--custom-grey: #f5f5f5;
+	--custom-blue: #0d6efd;
+	--custom-orange: #f7525a;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.color-white {
+	color: var(--custom-white);
+}
+
+.color-orange {
+	color: var(--custom-orange);
+}
+
+.bg-color-orange {
+	background-color: var(--custom-orange);
+}
+
+.color-black {
+	color: var(--custom-black);
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fs-7 {
+	font-size: 0.9rem;
+}
+
+.login-page-bg {
+	background-color: var(--custom-grey);
+}
+
+/* bootstrap classes */
+.table-btn:hover {
+	background-color: var(--custom-red);
+	color: var(--custom-white);
+}
+
+.page-link {
+	font-weight: 500;
+	color: var(--custom-orange);
+}
+
+.page-link:hover {
+	color: var(--custom-orange);
+}
+
+.active > .page-link {
+	color: var(--custom-white);
+	background-color: var(--custom-orange);
+	border: 1px solid var(--custom-orange);
+	font-weight: 500;
+}
+
+/* antd classes */
+.ant-dropdown-menu {
+	min-width: 130px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ant-segmented-item {
+	height: 40px;
+	width: 100px;
+}
+
+.ant-segmented-item-label {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+}
+
+.ant-segmented-item-selected {
+	background-color: var(--custom-orange) !important;
+	color: var(--custom-white) !important;
+}
+
+.ant-dropdown-menu-item {
+	padding: 0px !important;
+	width: 100%;
+	min-height: 35px;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover {
+	background-color: var(--custom-white) !important;
+}
+
+.ant-menu-item-selected {
+	background-color: var(--custom-orange) !important;
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item {
+	padding-inline: calc(50% - 15px) !important;
+}
+
+.ant-menu-item {
+	margin: 10px 5px !important;
+}
+
+.ant-menu-item:active {
+	background-color: var(--custom-orange) !important;
+}
+
+.ant-menu-submenu-title:active {
+	background-color: var(--custom-orange) !important;
+}
+
+.ant-menu-title-content {
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+.ant-notification-topRight {
+	z-index: 1099; /*bootstrap modal has z-index 1055. To show notifications above it setting z-index to 1099 here.*/
+}
+
+.ant-notification-notice_success {
+	background-color: var(--custom-green);
+}
+
+.ant-notification-notice_error {
+	background-color: var(--custom-orange);
+}
+
+.ant-notification-notice-message {
+	color: var(--custom-white) !important;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.ant-notification-notice-close {
+	color: var(--custom-white) !important;
+}
+
+.logout-btn:hover {
+	color: var(--custom-black) !important;
+}
+
+.css-16xfy0z-control {
+	background-color: #e9ecef !important;
+}
+
+.css-olqui2-singleValue {
+	color: black !important;
+}
